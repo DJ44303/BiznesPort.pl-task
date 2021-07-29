@@ -1,2 +1,2 @@
 # BiznesPort.pl task
- BiznesPort.pl enquiry internship task
+ BiznesPort.pl internship recruitment task
