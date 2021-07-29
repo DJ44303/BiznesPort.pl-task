@@ -1,0 +1,165 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .active{
+    color: #51867b !important;
+}
+
+.navbar-nav{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav .dot{
+    color: #555555 !important;
+}
+
+hr.first{
+    margin-top: 70px;
+}
+
+.carousel-indicators{
+    height: 50px;
+}
+
+.carousel-indicators li{
+    height: 20px;
+    width: 100px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.carousel-indicators li.active{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.personal-bg{
+    background-color: #447c71;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rightborder{
+    border-right: 1px #555555 solid;
+}
+
+.leftborder{
+    border-left: 1px #555555 solid;
+}
+
+.hexagon {
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+}
+
+.hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+}
+
+.hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url('../img/person.jpg');
+    background-size: 190%;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+}
+
+.hexagon2 {
+    width: 80%;
+    height: 400px;
+    margin: -40px 0 0 auto;
+}
+
+.personal-bg h1{
+    color: rgb(221, 221, 221);
+}
+
+.sn-box{
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+}
+
+.socials .disabled{
+    opacity: 0.4;
+}
+
+.fb img{
+    width: 40px;
+    height: 40px;
+}
+
+.linkedin img{
+    width: 40px;
+    height: 40px;
+}
+
+.twitter img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.socials{
+    width: 120px;
+    height: 40px;
+    float: right;
+}
+
+.form-bg{
+    background-color: #323232;
+    padding-top: 40px;
+}
+
+.form-bg{
+    color: rgb(161, 161, 161);
+}
+
+
+.justified{
+    text-align: justify;
+}
+
+form input, form textarea{
+    border: none !important;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+form button{
+    border-radius: 0 !important;
+    width: 100px;
+    background-color: rgb(81, 206, 112) !important;
+    float: right;
+}
+
+footer{
+    height: 50px;
+}
+
+.footer-middle{
+    margin: auto 0;
+}
